@@ -1,0 +1,4 @@
+project: PROJECT
+target: draco_mesh_decoder_fuzzer
+cmds:
+- cmd: /out/draco_mesh_decoder_fuzzer
