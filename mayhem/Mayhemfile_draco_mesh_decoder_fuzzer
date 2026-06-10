@@ -1,0 +1,8 @@
+project: draco
+target: draco_mesh_decoder_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/draco_mesh_decoder_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/draco_mesh_decoder_fuzzer
+    libfuzzer: true

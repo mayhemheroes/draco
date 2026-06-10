@@ -1,0 +1,8 @@
+project: draco
+target: draco_pc_decoder_without_dequantization_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/draco_pc_decoder_without_dequantization_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/draco_pc_decoder_without_dequantization_fuzzer
+    libfuzzer: true
